@@ -1,0 +1,91 @@
+* {
+	margin: 0;
+	padding:0; 
+}
+
+body {
+	background-color:#DDDDDD;
+}
+
+nav {
+	margin-right:auto;
+	margin-left:auto;
+	text-align:center; 
+}
+
+nav a {
+	text-decoration:none;
+	font-size:16px;
+	color: #FFFFFF;
+	font-family: "Nueva-Fuente";
+}
+
+nav, li > ul > li {
+	background-color: #000000;
+}
+
+nav ul li {
+	padding:10px; 
+	display:inline-block;
+	position:relative; 
+	transition:100ms ease; 
+}
+
+nav li > ul{
+	display:none; 
+}
+
+nav li:hover > ul {
+	display:block;
+	position:absolute;
+	top:68px;
+   	left:-2px;  
+}
+
+nav ul li:hover .item {
+	background-color: #fff;
+	color:#000;
+}
+
+li:hover {
+	background-color: #fff;
+	color:#000;
+}
+
+ul li .sub-item:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+@font-face {
+	font-family: "Nueva-Fuente";
+	src: url("Fipps-Regular.otf");
+}
+
+/*Estilos Adaptables*/
+
+@media (max-width:480px){
+
+	nav ul li {
+		display:block;
+	}
+
+	nav li:hover > ul {
+		display:block;
+		position:relative;	
+		top:2px; 
+	}
+
+}
+
+
+
+	
+
+
+
+
+
+
+
+
