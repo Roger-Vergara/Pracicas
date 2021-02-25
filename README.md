@@ -1,4 +1,4 @@
-## Practicas
+## Practicas de dasarrollo web
 
 Aqui subo mis practicas de todo tipo
 
